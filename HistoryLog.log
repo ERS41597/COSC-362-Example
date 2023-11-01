@@ -1,0 +1,67 @@
+    1  clera
+    2  clear
+    3  cd
+    4  ls
+    5  rm Junk.txt.save
+    6  ls
+    7  mkdir Notes
+    8  mkdir Junk
+    9  ls
+   10  cd junk
+   11  pwd
+   12  cd Junk
+   13  pwd
+   14  nano JunkFile.txt
+   15  ls
+   16  cat JunkFile.txt
+   17  cd
+   18  pwd
+   19  ls
+   20  cd 
+   21  cd/Notes
+   22  cd Notes/
+   23  ls
+   24  cp../Junk/JunkFile.txt NotesOnLinuxCommands.txt
+   25  cp../Junk/JunkFile.txt Junk.txt
+   26  clear
+   27  cd
+   28  ls
+   29  cd Junk
+   30  ls
+   31  cp JunkFile.txt JunkText.txt
+   32  touch Otherstuff.tex
+   33  ls
+   34  nano JunkText.txt
+   35  cd..
+   36  ls
+   37  cd
+   38  ls
+   39  rm -rf Junk/
+   40  ls
+   41  ls -l
+   42  ls -a
+   43  clear
+   44  cd Notes/
+   45  nano Junk.txt
+   46  cat 
+   47  clear
+   48  cd
+   49  ls
+   50  cd Notes
+   51  ;s
+   52  ls
+   53  nano LinuxCommands.txt
+   54  ls
+   55  cat LinuxCommands.txt
+   56  head LinuxCommands.txt
+   57  ckear
+   58  clear
+   59  exit
+   60  cler
+   61  clear
+   62  ls
+   63  cd Notes
+   64  ls
+   65  cd COSC362Fall2023
+   66  history > HistoryLog.log
+Ninja Turtles

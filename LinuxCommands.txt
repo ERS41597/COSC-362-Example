@@ -1,0 +1,34 @@
+Here are some notes on Linux Commands:
+
+* cd - Change Directory
+
+* Ls - View the Contents in the Directory
+
+* rm <Name of text file> - Remove a file from a directory
+
+* Nano - Creates a file in the directory youre in.
+
+* Cp - Copy a file from place to a destination
+
+* rf - recursive force.
+
+* Less - File Viewer that shows less...
+
+* Cat - Dumps contents of a stated fle to the terminal.
+
+* Head - shows the start of the file.
+
+* Less - Shows the end of the file.
+
+* Tab - AutoCompletes options on Linux
+
+* history - This shows the last so many commands entered into the terminal
+
+* > - Direct the terminal buffer into specified file.
+
+* >> Appends to the stated file the information in the terminal's buffer.
+
+* echo - This will put text back into the buffer.
+
+* & - This flag after a linux commands makes the job run in the background.
+      Allows the user to keep adding more commands in the terminal.

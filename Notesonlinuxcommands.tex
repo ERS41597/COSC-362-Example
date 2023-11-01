@@ -1,0 +1,72 @@
+\documentclass [12pt] {article}
+\begin {document}
+When Logging ito the machine:
+\begin{verbatim}
+ssh <username>@<machine>
+Here are some notes on Linux Commands:
+\begin {verbatim}
+
+\end {verbatim}
+
+
+* cd - Change Directory
+
+* Ls - View the Contents in the Directory
+
+* rm <Name of text file> - Remove a file from a directory
+
+* Nano - Creates a file in the directory youre in.
+
+* Cp - Copy a file from place to a destination
+
+* rf - recursive force.
+
+* Less - File Viewer that shows less...
+
+* Cat - Dumps contents of a stated fle to the terminal.
+
+* Head - shows the start of the file.
+
+* Less - Shows the end of the file.
+
+* Tab - AutoCompletes options on Linux
+
+* history - This shows the last so many commands entered into the terminal
+
+* > - Direct the terminal buffer into specified file.
+
+* >> Appends to the stated file the information in the terminal's buffer.
+
+* echo - This will put text back into the buffer.
+
+* & - This flag after a linux command makes the job run in the background
+      Allows the user to keep adding more commands in the terminal.
+
+* firefox - opens a web browser
+
+
+* kill <process number> - ends the process
+
+\end {verbatim}
+\section { the chmod command}
+
+This allows us to change how and who can mess with a file.
+File permissions come in three sets:
+
+-(USER)(Group)(Other) with three parts to each
+-rwx
+
+For chmod we set the permissions with a number
+\begin{itemized}
+\item Executehas a tag value 1
+\item Wirite ahs a tag calue 2
+\item REad ahs a tag value 4
+\end{itemized}
+These are addiitve. And we use them in a tuple after the chmod command
+Before the file we are changing.
+
+Example:
+
+chmod 777 myfile % This gives all access to everyone.
+
+\end{document}

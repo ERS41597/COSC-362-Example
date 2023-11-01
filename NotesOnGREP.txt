@@ -1,0 +1,45 @@
+What you are looking for in teh documents are regular expressions or
+"regex"
+
+* There are two basic Frameworks in grep:
+	Basic Mode: Use meta characters such as "?" "+" "{" "|" ( ) they lose
+	their special meaning
+
+	Extended Mode: ( Get to with a -E command) you get back these characters
+	special meanings.
+
+	You typically type the expression you're looking for in the single quote ' '
+	This keeps the shell from interpreting your search too soon or launching grep too quickly.
+
+   
+    grep -i ( Case insensitive ) search returns cases where teh different characters are found
+
+    grep -c ( Word Count) counts the number of occurences for a word in a specified document
+
+    grep -w ( Whole Word) returns only lines with the given word and not part of a larger word
+
+    grep -r Lets you do a recursive search through subfolders for the pattern.
+
+    grep -v Allows for an inverted search printing all lines in the file that do not contain the given search.
+
+    grep -L The files without a match command. PRints all files that do not contain the given search expression.
+
+             Example: $ grep -r -L 'Network' /var/log/*
+
+	     print recursively all the files in path that do not contain the
+             word 'Network;
+
+   grep -l Prints the files with a match
+
+   grep -A num  Will give context around the match found by printing 'num' lines of context after the match is found.
+
+   grep -B num is num lines of context before
+
+   grep -C num  Will give context before and after  match is found.
+
+
+   grep -H   Allows you to use standard input via a pipe. Example:
+
+	     $ grep cat somefile | grep -H <expression>
+
+   grep -q Is a quiet mode flag that only returns a 0 indicating a match or 1 indicating no match found.
